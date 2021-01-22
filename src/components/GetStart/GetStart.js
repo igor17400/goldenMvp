@@ -5,24 +5,23 @@ import { Link } from "react-router-dom";
 class GetStart extends Component {
   render() {
     return (
-      <section className="section section-lg bg-get-start">
+      <section className="section section-lg bg-get-start" id="join">
         <div className="bg-overlay"></div>
         <Container>
           <Row>
             <Col lg={{ size: 8, offset: 2 }} className="text-center">
               <h1 className="get-started-title text-white">
-                Let's Get Started
+                Vamos entrar nessa rede
               </h1>
               <div className="section-title-border mt-4 bg-white"></div>
               <p className="section-subtitle font-secondary text-white text-center pt-4">
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.{" "}
+                Ganhar dinheiro nunca foi tão fácil.{" "}
               </p>
               <Link 
                 to="#"
                 className="btn btn-white waves-effect mt-3 mb-4"
               >
-                Get Started <i className="mdi mdi-arrow-right"></i>{" "}
+                Entrar <i className="mdi mdi-arrow-right"></i>{" "}
               </Link>
             </Col>
           </Row>

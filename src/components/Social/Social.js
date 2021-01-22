@@ -40,7 +40,7 @@ class Social extends Component {
               </Col>
               <Col lg={3} className="mt-4">
                 <p className="contact-title">
-                  <i className="pe-7s-call"></i> &nbsp;+91 123 4556 789
+                  <i className="pe-7s-call"></i> &nbsp;+55 (61)99699-5651
                 </p>
               </Col>
               <Col lg={3} className="mt-4 text-right">

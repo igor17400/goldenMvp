@@ -4,13 +4,12 @@ import { Container, Row, Col, Form } from "reactstrap";
 
 //Import Footer link
 import FooterLinks from "./footer-links";
-import Switcher from "./Switcher";
 
 class Footer extends Component {
   state = {
     links: [
       {
-        title: "DORSIN",
+        title: "GOLDEN",
         child: [
           { link: "#", title: "Home" },
           { link: "#", title: "About us" },
@@ -84,8 +83,6 @@ class Footer extends Component {
         {/* Render footer links */}
         <FooterLinks />
 
-        {/* color switcher */}
-        <Switcher />
       </React.Fragment>
     );
   }

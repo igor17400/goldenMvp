@@ -11,7 +11,7 @@ class FooterLinks extends Component {
               <Col lg={12}>
                 <div className="float-start pull-none">
                   <p className="copy-rights text-muted">
-                    2019 - 2020 © Dorsin - Themesbrand
+                    2021 - 2022 © GOLD
                   </p>
                 </div>
                 <div className="float-end pull-none">

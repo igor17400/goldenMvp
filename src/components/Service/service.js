@@ -59,8 +59,8 @@ class Process extends Component {
           <Container>
             {/* section title */}
             <SectionTitle
-              title="Our Services"
-              desc="We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value for our clients."
+              title="Como funciona?"
+              desc="Cadastre. Indique. Ganhe."
             />
 
             <Row className="mt-4">

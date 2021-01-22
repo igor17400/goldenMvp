@@ -37,7 +37,7 @@ class Clients extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section pt-4" id="team">
+        <section className="section pt-4">
           <Container>
             {/* section title */}
             <SectionTitle

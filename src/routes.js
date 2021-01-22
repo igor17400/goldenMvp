@@ -1,4 +1,4 @@
-import Index7 from "./pages/Index7/Index7";
+import LandingPage from "./pages/LandingPage/LandingPage";
 
 //Auth Pages
 import Signup from "./pages/Auth/Signup";
@@ -8,8 +8,8 @@ import PasswordForget from "./pages/Auth/PasswordForget";
 const routes = [
   { path: "/password-forget", component: PasswordForget },
   { path: "/login", component: Login },
-  { path: "/sign-up", component: Signup },
-  { path: "/", component: Index7 },
+  { path: "/registrar", component: Signup },
+  { path: "/", component: LandingPage },
 ];
 
 export default routes;

@@ -12,19 +12,19 @@ class Process extends Component {
     this.state = {
       processes: [
         {
-          icon: "pe-7s-pen",
-          title: "Tell us what you need",
-          desc: "The Big Oxmox advised her not to do so.",
-        },
-        {
           icon: "pe-7s-id",
-          title: "Get free quotes",
-          desc: "Little Blind Text didn’t listen.",
+          title: "Faça o cadastro no site ou app",
+          desc: "Só é preciso fornecer cpf, e-mail e senha.",
         },
         {
-          icon: "pe-7s-target",
-          title: "Deliver high quality product",
-          desc: "When she reached the first hills.",
+          icon: "pe-7s-phone",
+          title: "Compartilhe o seu MyGolden com seus amigos",
+          desc: "Basta fornecer o QR code ou o código.",
+        },
+        {
+          icon: "pe-7s-cash",
+          title: "Ganhe dinheiro em troca da sua indicação",
+          desc: "Toda indicação que converter para uma compra, você ganha uma comissão.",
         },
       ],
     };
@@ -37,8 +37,8 @@ class Process extends Component {
           <Container>
             {/* section title */}
             <SectionTitle
-              title="WORK PROCESS"
-              desc="In an ideal world this website wouldn’t exist, a client would acknowledge the importance of having web copy before the design starts."
+              title="Como Funciona?"
+              desc="Cadastre. Indique. Ganhe."
             />
 
             <Row>
@@ -56,7 +56,7 @@ class Process extends Component {
                   to="#"
                   className="btn btn-primary waves-light waves-effect mt-5"
                 >
-                  Get Started <i className="mdi mdi-arrow-right"></i>
+                  Começar <i className="mdi mdi-arrow-right"></i>
                 </Link>
               </div>
             </Row>
