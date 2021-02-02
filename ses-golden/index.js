@@ -4,7 +4,7 @@ var app = express();
 var aws = require("aws-sdk");
 
 // Edit this with YOUR email address.
-var email = "hello@example.com";
+var email = "app.golden.publicidade@gmail.com";
 
 // Load your AWS credentials and try to instantiate the object.
 aws.config.loadFromPath(__dirname + "/config.json");
