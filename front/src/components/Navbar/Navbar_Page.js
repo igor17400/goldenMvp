@@ -50,6 +50,12 @@ class NavbarPage extends Component {
                                     className="logo text-uppercase"
                                     href="/"
                                 >
+                                    <img
+                                        src="assets/images/golden_logo_rounded.png"
+                                        width="30"
+                                        height="30"
+                                        className="d-inline-block align-top"
+                                    />{" "}
                                     Golden
                                 </NavbarBrand>
                                 <NavbarToggler onClick={this.toggle}>

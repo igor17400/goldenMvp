@@ -2231,6 +2231,7 @@ ul.pattern .color8 {
   position: absolute;
 }
 
-.mdi-tiktok {
-    background: url("../images/tik-tok.svg");
+.logo-golden {
+    height: 10px;
+    width: 10px;
 }

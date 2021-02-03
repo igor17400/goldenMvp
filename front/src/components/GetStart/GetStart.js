@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Container, Row, Col, Form, Button } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
+import FormRequest from "../EmailForm/FormRequest";
 
 const post = async (data) => {
     const { url } = data;
@@ -27,34 +28,6 @@ const post = async (data) => {
 };
 
 class GetStart extends Component {
-    state = {
-        error: null,
-        submitted: false,
-        fields: { email: "", message: "Hi, there." },
-    };
-
-    submitForm(event) {
-        const formElement = event.target;
-        const { email } = formElement.elements;
-        // build the request payload which includes the url of the end-point we want to hit
-        const payload = {
-            url: "api/contact",
-            email: email,
-            message: "Hi, there.",
-        };
-
-        // call the post helper function which returns a promise, which we can use to update the
-        // state of our component once returned
-        post(payload)
-            .then(() => {
-                // on success, clear any errors and set submitted state to true
-                this.setState({ error: null, submitted: true });
-            })
-            .catch((error) => {
-                // on error, update error state with the error message and set submitted to false
-                this.setState({ error: error.message, submitted: false });
-            });
-    }
 
     render() {
         return (
@@ -74,26 +47,8 @@ class GetStart extends Component {
                                 Ganhar dinheiro nunca foi tão fácil.{" "}
                             </p>
                         </Col>
-                        <Col>
-                            <div className="text-center subscribe-form mt-5">
-                                <Form
-                                    ref={this.formElement}
-                                    onSubmit={(event) => this.submitForm(event)}
-                                >
-                                    <input
-                                        type="text"
-                                        placeholder="Email"
-                                        required
-                                    />
-                                    <Button
-                                        color="none"
-                                        type="submit"
-                                        className="btn-primary"
-                                    >
-                                        Me inscrever!
-                                    </Button>
-                                </Form>
-                            </div>
+                        <Col>   
+                            < FormRequest />
                         </Col>
                     </Row>
                 </Container>

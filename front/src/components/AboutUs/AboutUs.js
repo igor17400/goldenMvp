@@ -14,11 +14,11 @@ class AboutUs extends Component {
                                         Nós somos, nada mais e nada menos, que
                                         uma empresa de conexões.
                                     </h3>
+                                    <i className="logo-golden"></i>
                                     <p className="text-muted web-desc">
                                         Em outras palavras, conseguimos
-                                        interligar pessoas e assim garantir um
-                                        maior fluxo de caixa para
-                                        estabelecimentos.
+                                        interligar pessoas e por consequência
+                                        elevar o engajamento dos estabelecimentos.
                                     </p>
                                     <ul className="text-muted list-unstyled mt-4 features-item-list">
                                         <li className="">
@@ -26,15 +26,14 @@ class AboutUs extends Component {
                                             suas indicações.
                                         </li>
                                         <li className="">
-                                            Os estabelecimentos veem um aumento
-                                            de clientes.
+                                            Os estabelecimentos percebem um aumento
+                                            no seu fluxo.
                                         </li>
                                         <li className="">
-                                            Clientes ganham descontos em
-                                            qualquer estabelecimento parceiro.
+                                            Rede exclusiva de indicações e bonificações.
                                         </li>
                                         <li className="">
-                                            Venha entrar nesse ciclo.
+                                            Indicação comissionada.
                                         </li>
                                     </ul>
                                 </div>

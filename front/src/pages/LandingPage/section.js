@@ -6,7 +6,7 @@ import ReactTextRotator from "react-text-rotator";
 
 const content = [
     {
-        text: "Nós somos a Golden",
+        text: "Nós somos a Golden.",
         className: "classA",
         animation: "fade",
     },
@@ -16,7 +16,7 @@ const content = [
         animation: "fade",
     },
     {
-        text: "Fazemos com que pessoas e estabelecimentos consigam crescer.",
+        text: "Impactamos pessoas e elevamos o engajamento de estabelecimentos.",
         className: "classC",
         animation: "fade",
     },
