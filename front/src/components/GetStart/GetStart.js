@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 import FormRequest from "../EmailForm/FormRequest";
+import { Link } from "react-router-dom";
 
 const post = async (data) => {
     const { url } = data;
@@ -28,7 +29,6 @@ const post = async (data) => {
 };
 
 class GetStart extends Component {
-
     render() {
         return (
             <section className="section section-lg bg-get-start" id="join">
@@ -44,11 +44,22 @@ class GetStart extends Component {
                             </h1>
                             <div className="section-title-border mt-4 bg-white"></div>
                             <p className="section-subtitle font-secondary text-white text-center pt-4">
-                                Ganhar dinheiro nunca foi tão fácil.{" "}
+                                Você não imagina o mundo que está prestes a
+                                descobrir.{" "}
                             </p>
-                        </Col>
-                        <Col>   
-                            < FormRequest />
+                            <Button
+                                onClick={() =>
+                                    window.open(
+                                        "https://docs.google.com/forms/d/e/1FAIpQLSdQ5n3yqE6yH3TjAN--RRoyvfyenxWQ5CTUkPFdFi5bTITb0Q/viewform?usp=sf_link",
+                                        "_blank"
+                                    )
+                                }
+                                color="dark"
+                                type="submit"
+                                className="btn-secondary"
+                            >
+                                Participar
+                            </Button>
                         </Col>
                     </Row>
                 </Container>

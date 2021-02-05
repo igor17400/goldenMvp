@@ -16,24 +16,25 @@ class AboutUs extends Component {
                                     </h3>
                                     <i className="logo-golden"></i>
                                     <p className="text-muted web-desc">
-                                        Em outras palavras, conseguimos
-                                        interligar pessoas e por consequência
-                                        elevar o engajamento dos estabelecimentos.
+                                        Em outras palavras. Conseguimos
+                                        interligar pessoas por meio de suas vivências.
                                     </p>
                                     <ul className="text-muted list-unstyled mt-4 features-item-list">
                                         <li className="">
-                                            Pagamos os influenciadores pelas
-                                            suas indicações.
+                                            Todo mundo tem aquele estabelecimento que gosta
+                                            e frequenta. 
                                         </li>
                                         <li className="">
-                                            Os estabelecimentos percebem um aumento
-                                            no seu fluxo.
+                                            Porque não compartilhar essa dica?
                                         </li>
                                         <li className="">
-                                            Rede exclusiva de indicações e bonificações.
+                                            Porque não ganhar com isso?
                                         </li>
                                         <li className="">
-                                            Indicação comissionada.
+                                            Indicações se convertem em conexões. 
+                                        </li>
+                                        <li className="">
+                                            Conexões se convertem em experiências.
                                         </li>
                                     </ul>
                                 </div>
@@ -43,7 +44,7 @@ class AboutUs extends Component {
                                     <iframe
                                         className="frame-border player-wrapper"
                                         title="dorsin"
-                                        src="https://www.youtube.com/embed/DtMuKjvhz5g?rel=0"
+                                        src="https://www.youtube.com/embed/E-UrkEjU7PI?rel=0"
                                     ></iframe>
                                 </div>
                             </Col>
