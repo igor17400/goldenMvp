@@ -1854,7 +1854,7 @@ iframe {
 }
 
 .empresa-title {
-    color: #aa530e;
+  color: #aa530e
 }
 
 .empresa-box .empresa-title:hover {
@@ -1909,7 +1909,7 @@ textarea.form-control {
 }
 
 .contact-social .contact-title {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .error_message {
@@ -2228,7 +2228,7 @@ ul.pattern .color8 {
 }
 
 .react-player > div {
-    position: absolute;
+  position: absolute;
 }
 
 .logo-golden {

@@ -27,7 +27,7 @@ class Social extends Component {
                                         <a
                                             className="social-icon"
                                             target="_blank"
-                                            href="https://www.tiktok.com/@mygolden.app?"
+                                            href="https://www.instagram.com/mygolden.app/"
                                         >
                                             <i className="mdi mdi-instagram"></i>
                                         </a>
