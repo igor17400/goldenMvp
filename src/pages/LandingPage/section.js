@@ -19,7 +19,7 @@ const content = [
     },
     {
         text:
-            "Impactamos pessoas e elevamos o engajamento de estabelecimentos.",
+            "Impactamos pessoas e criamos conexões.",
         className: "classC",
         animation: "fade",
     },
@@ -31,7 +31,7 @@ const content = [
 ];
 
 const TextRotator = () => (
-    <ReactTextRotator content={content} time={2000} startDelay={350} />
+    <ReactTextRotator content={content} time={2150} startDelay={350} />
 );
 
 class Section extends Component {

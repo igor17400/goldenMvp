@@ -1436,6 +1436,8 @@ iframe {
 .display-table-cell {
     display: table-cell;
     vertical-align: middle;
+    height: 70%;
+    width: 70%;
 }
 
 .display-table {
