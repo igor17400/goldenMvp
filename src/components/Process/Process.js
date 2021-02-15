@@ -12,13 +12,13 @@ class Process extends Component {
             processes: [
                 {
                     icon: "pe-7s-timer",
-                    title: "Se cadastre em nosso formulário e aguarde convite de acesso",
+                    title: "Cadastre-se em nosso formulário e aguarde convite de acesso",
                     desc: "Basta ficar atento ao e-mail e ao telefone.",
                 },
                 {
                     icon: "pe-7s-phone",
                     title: "Indique estabelecimentos que gosta e consome",
-                    desc: "Basta compartilhas o seu GOLDEN com seus amigos.",
+                    desc: "Basta compartilhar o seu GOLDEN com seus amigos.",
                 },
                 {
                     icon: "pe-7s-cash",

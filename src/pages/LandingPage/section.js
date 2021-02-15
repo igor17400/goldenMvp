@@ -76,7 +76,7 @@ class Section extends Component {
                             </Container>
                         </div>
                     </div>
-                    <div class="box">
+                    <div>
                         <Container>
                             <Row>
                                 <Col className="text-center">

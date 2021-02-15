@@ -38,7 +38,7 @@ class Social extends Component {
                                             target="_blank"
                                             href="https://www.tiktok.com/@mygolden.app?"
                                         >
-                                            <i class="fab fa-tiktok"></i>
+                                            <i className="fab fa-tiktok"></i>
                                         </a>
                                     </li>
                                 </ul>
